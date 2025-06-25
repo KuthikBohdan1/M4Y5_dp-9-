@@ -4,5 +4,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('app.urls')),  # Підключає маршрути з app/urls.py
+    path('', include('cofe_bar.urls')),  # Підключає маршрути з app/urls.py
 ]

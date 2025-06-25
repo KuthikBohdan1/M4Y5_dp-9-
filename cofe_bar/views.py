@@ -9,6 +9,8 @@ def Reviews(request):
     }
 
     return render(
-        context=context
-        template_name="index.html"
+        request,
+        template_name="index.html",
+        context=context,
     )
+    
